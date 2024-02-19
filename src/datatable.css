@@ -1,0 +1,143 @@
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    background-color: rgb(209, 217, 220);
+}
+
+.first-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   padding-top: -100px;
+     margin-top: 
+     -10px;
+}
+.headline{
+    font-size: 30px;
+    text-align: left;
+  
+   margin-bottom: 5px;
+}
+
+.first-div button {
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+
+    margin-top: 38px;
+  }
+
+.Search-div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: skyblue;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+
+  .Search-div > div {
+    flex: 1;
+  }
+  
+  .Search-div p {
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+  }
+  
+  .Search-div input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  /* .Search-div input[type="text"], */
+  .Search-div select {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  
+  .Search-div button {
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 38px;
+  }
+  
+  /* Style select arrow */
+  .Search-div select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 12.586l4.293-4.293a1 1 0 011.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 12.586z" clip-rule="evenodd" /></svg>');
+    background-repeat: no-repeat;
+    background-position: right 5px top 50%;
+    padding-right: 25px;
+  }
+  
+  /* Style the placeholder text */
+  .Search-div input[type="text"]::placeholder {
+    color: #aaa;
+  }
+  
+  /* Style the button on hover */
+   button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Media queries for tablet and mobile */
+@media screen and (max-width: 500px) {
+    .Search-div {
+        margin: 10px;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+      }
+   
+    .Search-div button {
+        width: 50%; 
+        margin-left: 
+        77px;
+    }
+
+    .Search-div select{
+        margin-left: 1;
+    }
+
+    .wrapper {
+        width: 33%;
+       
+        margin-top: -128px;
+        margin: -20px;
+         
+        flex-direction: column;
+        
+      }
+      
+    .headline{
+        font-size: 20px;
+     
+    }
+}
+
